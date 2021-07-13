@@ -1,5 +1,5 @@
-Github Self-Hosted Runner Agent
-Author: Demian Ginther (st.diluted@gmail.com)
+Github Self-Hosted Runner Agent  
+Author: Demian Ginther (st.diluted@gmail.com)  
 
 Github self-hosted runners don't have a way to easily kill them off if you are worried about losing in-progress jobs. We run multiple runner processes on each AWS instance to allow for multiple threads of CI execution, and finding a time when _all_ the runner processes are not busy is nigh-impossible. 
 
